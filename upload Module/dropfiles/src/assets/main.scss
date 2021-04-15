@@ -1,0 +1,74 @@
+$blue:    #61DBFB !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+ body{
+background-color: #E5e7E9 !important;
+
+ }
+
+ .wrapper
+ {
+    height: 100vh !important;
+    
+ }
+
+ nav{
+     border-bottom: 5px solid $blue;
+ }
+
+ footer{
+     border-top:5px solid rgba(0,0,0,0.98);
+     
+ }
+
+ .btn
+ {
+     border-radius:0px !important;
+ }
+
+ .card
+ {
+     border: 0px;
+     border-radius: 0px !important;
+     box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.08);
+ }
+
+ .uploader-input
+ {
+     height:100px !important;
+     width:100px !important;
+     border-radius: 5px !important;
+     position: absolute;
+     opacity: 0;
+     
+ }
+
+.uploader-mask
+{
+    height:100px !important;
+     width:100px !important;
+     border-radius: 5px !important;
+     border: 2px dashed #ccc;
+
+}
+
+.upload-icon
+{
+    height:40px !important;
+    
+}
+
+.uploaded-img{
+    height:100px !important;
+}
+
